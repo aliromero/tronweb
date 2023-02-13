@@ -17,7 +17,7 @@ import { ADDRESS_PREFIX, TRON_BIP39_PATH_INDEX_0 } from 'utils/address';
 
 const DEFAULT_VERSION = '3.5.0';
 
-const FEE_LIMIT = 150000000;
+const FEE_LIMIT = 200000000;
 
 export default class TronWeb extends EventEmitter {
     static providers = providers;
